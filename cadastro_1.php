@@ -8,7 +8,6 @@
 <body> 
 <div id="container"> 
 <div id="header" title="sistema"> 
-<<<<<<< HEAD
 <div id="skipmenu"><a href="#content"></a></div>
 <header class="header">
 <div class="container">
@@ -29,18 +28,6 @@
     </div>
 </header> 
 
-=======
-<div id="skipmenu"><a href="#content"></a></div> 
-<h1>SISTEMA DE CADASTRO DE CIDADE</h1> 
-</div> 
-<div id="menu"></div> 
-<h3></h3> 
-<ul> 
-<li><a href="#">menu 1</a></li> 
-<li><a href="#">menu 2</a></li> 
-<li><a href="#">menu 3</a></li> 
-</ul> 
->>>>>>> 0df79856f9470521f972a947fd32284bc16e9362
 <div id="contents"></div> 
 <p><img class="imagefloat" src="pinguim.jpg" alt="" width="100" height="100" border="0"></p> 
 <h1>Cadastro de Cidades</h1><strong><big>
@@ -51,10 +38,6 @@ Codigo: <input type="text" name="codigo" value="" size="20" border="2"/><br><br>
 Nome: <input type="text" name="nome" value="" size="20" border="2"/><br><br>
 Quantidade: <input type="text" name="quantidade" value="" size="20" border="2"/><br><br>
 Valor: <input type="text" name="valor" value="" size="20" border="2"/> 
-=======
-Codigo: <input type="text" name="codigo" value="" size="20" border="2"/><br><br> 
-Nome: <input type="text" name="nome" value="" size="20" border="2"/> 
->>>>>>> 0df79856f9470521f972a947fd32284bc16e9362
 <p><input type="submit" value="Enviar" name="enviar"/></p> 
 </form><br><br><br><br> 
 <div id="footer">Rodape do Site Exemplo Reg</div> 
