@@ -27,19 +27,30 @@
         </nav>
     </div>
 </header> 
-
+<div class="title">
 <div id="contents"></div> 
-<p><img class="imagefloat" src="pinguim.jpg" alt="" width="100" height="100" border="0"></p> 
 <h1>Cadastro de Cidades</h1><strong><big>
+</div>
+<div class="img">
+<p><img class="imagefloat" src="pinguim.jpg" alt="" width="100" height="100" border="0"></p> 
+</div>
+<main>
+
+<section class= "secao_conteudo">
+
+
 <label align="center">Nome da Cidade</label><br><br> 
-<form name="form_cad" method="POST" action="insere_cidade.php"> 
-<<<<<<< HEAD
+<form class="form_cadastro" name="form_cad" method="POST" action="insere_cidade.php"> 
 Codigo: <input type="text" name="codigo" value="" size="20" border="2"/><br><br>
 Nome: <input type="text" name="nome" value="" size="20" border="2"/><br><br>
 Quantidade: <input type="text" name="quantidade" value="" size="20" border="2"/><br><br>
 Valor: <input type="text" name="valor" value="" size="20" border="2"/> 
-<p><input type="submit" value="Enviar" name="enviar"/></p> 
+<p><input class="button" type="submit" value="Enviar" name="enviar"/></p> 
 </form><br><br><br><br> 
+
+</section>
+
+</main>
 <div id="footer">Rodape do Site Exemplo Reg</div> 
 </div> 
 </body> 
