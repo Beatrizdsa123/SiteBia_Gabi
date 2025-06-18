@@ -67,27 +67,25 @@ header img {
   color: #ffffff;
 }
 
-  main {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center; 
-    
-  }
-    .secao_conteudo{
-        width: 900px;
-        background-color: #f0f0f0;
-        display: flex;
-        justify-content: center; 
-        
-  }
-.title{
-    display: flex;
-    justify-content: center; 
+main {
+  margin: 0;
+  height: 500px;
+  display: flex;
+  justify-content: center;
 }
-.img{
-    display: flex;
-    justify-content: center; 
+.secao_conteudo {
+  width: 900px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  display: flex;
+  justify-content: center;
 }
 
 form {
@@ -97,13 +95,13 @@ form {
 }
 
 .form_cadastro input[type="text"],
-.form_cadastro  input[type="email"],
-.form_cadastro  input[type="password"] {
+.form_cadastro input[type="email"],
+.form_cadastro input[type="password"] {
   width: 100%;
   padding: 10px;
   margin-bottom: 12px;
   border: 1px solid #ccc;
-  border-radius: 8px; /* cantos arredondados */
+  border-radius: 8px;
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -111,7 +109,7 @@ form {
 .form_cadastro .button {
   width: 100%;
   padding: 10px;
-  background-color:rgb(231, 63, 141);
+  background-color: rgb(231, 63, 141);
   border: none;
   border-radius: 8px;
   color: white;
@@ -122,3 +120,18 @@ form {
 form button:hover {
   background-color: rgb(250, 92, 171);
 }
+
+.title2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  color: rgb(231, 63, 141);
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 20px 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
